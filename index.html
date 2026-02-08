@@ -36,10 +36,12 @@
     </div>
     
     <!-- 請將下面的 src 網址換成你的 Apps Script 網址 -->
-    <iframe src="https://script.google.com/macros/s/AKfycbyKboWl6vUGRXFuyvgHvu0OjoqrLKtsSME-AWqNyPjGHUx1Rq-jzupl0uaW79wR4U4/exec" 
-            onload="document.getElementById('loader').style.display='none'"
-            sandbox="allow-forms allow-scripts allow-same-origin allow-popups allow-top-navigation-by-user-activation allow-downloads">
-    </iframe>
+<iframe src="https://script.google.com/macros/s/AKfycbyKboWl6vUGRXFuyvgHvu0OjoqrLKtsSME-AWqNyPjGHUx1Rq-jzupl0uaW79wR4U4/exec" 
+        onload="document.getElementById('loader').style.display='none'"
+        style="width: 100%; height: 100%; border: none; display: block;"
+        allow="camera; microphone; geolocation" 
+        allowfullscreen>
+</iframe>
 
     <script>
         // 註冊 Service Worker
@@ -52,3 +54,4 @@
 </body>
 
 </html>
+
